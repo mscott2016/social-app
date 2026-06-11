@@ -326,7 +326,7 @@ msgstr "{0}’s avatar"
 #. The number of active group chat members out of the total number allowed.
 #. placeholder {0}: joinLinkPreview.memberCount
 #. placeholder {1}: joinLinkPreview.memberLimit
-#: src/screens/Messages/JoinRequest.tsx:129
+#: src/screens/Messages/JoinRequest.tsx:136
 msgctxt "group-chat-member-count"
 msgid "{0}/{1}"
 msgstr "{0}/{1}"
@@ -2236,7 +2236,7 @@ msgstr ""
 #. placeholder {0}: sanitizeHandle(item.feed.creator.handle, '@')
 #: src/components/LabelingServiceCard/index.tsx:62
 #: src/components/moderation/ReportDialog/index.tsx:847
-#: src/screens/Messages/JoinRequest.tsx:167
+#: src/screens/Messages/JoinRequest.tsx:174
 #: src/screens/Search/components/StarterPackCard.tsx:107
 #: src/screens/Search/Explore.tsx:971
 msgid "By {0}"
@@ -2467,7 +2467,7 @@ msgstr "Chat ended"
 #: src/components/intents/GroupChatJoinDialog.tsx:229
 #: src/components/Post/Embed/JoinRequestEmbed.tsx:99
 #: src/screens/Messages/components/MessageInputEmbed.tsx:331
-#: src/screens/Messages/JoinRequest.tsx:83
+#: src/screens/Messages/JoinRequest.tsx:90
 msgid "Chat invite link no longer available"
 msgstr "Chat invite link no longer available"
 
@@ -3325,7 +3325,7 @@ msgstr ""
 
 #: src/components/WelcomeModal.tsx:158
 #: src/components/WelcomeModal.tsx:166
-#: src/screens/Messages/JoinRequest.tsx:300
+#: src/screens/Messages/JoinRequest.tsx:307
 #: src/screens/Signup/index.tsx:135
 #: src/view/com/auth/SplashScreen.tsx:107
 #: src/view/com/auth/SplashScreen.web.tsx:116
@@ -3380,7 +3380,7 @@ msgstr ""
 msgid "Create moderation list"
 msgstr ""
 
-#: src/screens/Messages/JoinRequest.tsx:294
+#: src/screens/Messages/JoinRequest.tsx:301
 #: src/view/com/auth/SplashScreen.tsx:100
 #: src/view/com/auth/SplashScreen.web.tsx:108
 msgid "Create new account"
@@ -5514,7 +5514,7 @@ msgstr ""
 
 #: src/components/dms/ChatInvite/Card.tsx:46
 #: src/components/intents/GroupChatJoinDialog.tsx:294
-#: src/screens/Messages/JoinRequest.tsx:115
+#: src/screens/Messages/JoinRequest.tsx:122
 msgid "Group chat"
 msgstr "Group chat"
 
@@ -7917,7 +7917,7 @@ msgid "Only image files are supported"
 msgstr ""
 
 #. placeholder {0}: createSanitizedDisplayName( joinLinkPreview.owner, true, moderateProfile(joinLinkPreview.owner, moderationOpts).ui( 'displayName', ), )
-#: src/screens/Messages/JoinRequest.tsx:208
+#: src/screens/Messages/JoinRequest.tsx:215
 msgid "Only people {0} follows can join."
 msgstr "Only people {0} follows can join."
 
@@ -8107,13 +8107,13 @@ msgstr ""
 msgid "Opens device gallery to select up to {MAX_GALLERY_IMAGES, plural, other {# images}}, or a single video or GIF."
 msgstr "Opens device gallery to select up to {MAX_GALLERY_IMAGES, plural, other {# images}}, or a single video or GIF."
 
-#: src/screens/Messages/JoinRequest.tsx:295
+#: src/screens/Messages/JoinRequest.tsx:302
 #: src/view/com/auth/SplashScreen.tsx:102
 #: src/view/com/auth/SplashScreen.web.tsx:110
 msgid "Opens flow to create a new Bluesky account"
 msgstr ""
 
-#: src/screens/Messages/JoinRequest.tsx:281
+#: src/screens/Messages/JoinRequest.tsx:288
 #: src/view/com/auth/SplashScreen.tsx:120
 #: src/view/com/auth/SplashScreen.web.tsx:124
 msgid "Opens flow to sign in to your existing Bluesky account"
@@ -10586,8 +10586,8 @@ msgstr ""
 #: src/screens/Login/LoginForm.tsx:179
 #: src/screens/Login/LoginForm.tsx:350
 #: src/screens/Login/LoginForm.tsx:356
-#: src/screens/Messages/JoinRequest.tsx:280
-#: src/screens/Messages/JoinRequest.tsx:286
+#: src/screens/Messages/JoinRequest.tsx:287
+#: src/screens/Messages/JoinRequest.tsx:293
 #: src/screens/Search/SearchResults.tsx:316
 #: src/view/com/auth/SplashScreen.tsx:118
 #: src/view/com/auth/SplashScreen.tsx:124
@@ -10620,7 +10620,7 @@ msgstr ""
 msgid "Sign in or create your account to join the conversation!"
 msgstr ""
 
-#: src/screens/Messages/JoinRequest.tsx:206
+#: src/screens/Messages/JoinRequest.tsx:213
 msgid "Sign in to accept invite."
 msgstr "Sign in to accept invite."
 
@@ -10632,7 +10632,7 @@ msgstr ""
 msgid "Sign in to Bluesky or create a new account"
 msgstr ""
 
-#: src/screens/Messages/JoinRequest.tsx:205
+#: src/screens/Messages/JoinRequest.tsx:212
 msgid "Sign in to request access to this group chat."
 msgstr "Sign in to request access to this group chat."
 
